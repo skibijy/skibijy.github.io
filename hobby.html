@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hobbies — Mary Jane Royol</title>
+  <link rel="icon" href="assets/img/logo.svg">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Outfit:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+    <div class="container-fluid px-4">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+        <img src="assets/img/Logome.svg" width="40" height="40" alt="Logo" class="logo">
+        <span class="portfolio-name">Mary Jane Royol</span>
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+        aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+        <ul class="navbar-nav gap-4">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
+          <li class="nav-item"><a class="nav-link active" href="hobby.html">Hobbies</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="inner-page-hero">
+    <div class="container">
+      <p class="page-hero-label">Explore</p>
+      <h1 class="page-hero-title">My Hobbies</h1>
+      <div class="page-divider"></div>
+      <p class="page-hero-sub">The things I love doing when I'm not behind a screen — and sometimes when I am.</p>
+    </div>
+  </section>
+
+  <section class="content-section">
+    <div class="container">
+
+      <p class="section-label">Interests</p>
+      <h2 class="section-title">What I Enjoy</h2>
+      <div class="section-header-divider"></div>
+
+      <div class="row gy-4">
+
+        <div class="col-lg-4 col-md-6">
+          <div class="hobby-card">
+            <h3 class="hobby-title">1st Hobby</h3>
+            <p class="hobby-desc">COD mobile has always been my comfort zone;the game that keeps me engaged and
+              entertained during my free time.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="hobby-card">
+            <h3 class="hobby-title">2nd Hobby</h3>
+            <p class="hobby-desc">I enjoy reading romantic comedy stories because they help me relax and provide enjoyable moments during my free time.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="hobby-card">
+            <h3 class="hobby-title">3rd Hobby</h3>
+            <p class="hobby-desc">I enjoy listening to music and exploring new genres, which helps me relax and find
+              inspiration.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="text-center mt-5">
+        <a href="index.html" class="btn-accent-outline">Back to Home</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 <span>Mary Jane Royol</span>. All rights reserved.
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+  <script>
+    var nav = document.getElementById('mainNav');
+    window.addEventListener('scroll', function () {
+      if (window.scrollY > 40) {
+        nav.classList.add('scrolled');
+      } else {
+        nav.classList.remove('scrolled');
+      }
+    });
+  </script>
+
+</body>
+
+</html>
