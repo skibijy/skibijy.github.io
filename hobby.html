@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,12 +7,10 @@
   <link rel="icon" href="assets/img/Logome.svg">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Outfit:wght@300;400;500;600;700&display=swap"
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Outfit:wght@300;400;500;600;700&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
-
 <body>
 
   <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
@@ -47,35 +44,42 @@
     </div>
   </section>
 
-  <section class="content-section">
-    <div class="container">
+  <section class="py-5">
+    <div class="container py-4">
 
       <p class="section-label">Interests</p>
       <h2 class="section-title">What I Enjoy</h2>
       <div class="section-header-divider"></div>
 
-      <div class="row gy-4">
+      <div class="row g-4">
 
         <div class="col-lg-4 col-md-6">
-          <div class="hobby-card">
-            <h3 class="hobby-title">1st Hobby</h3>
-            <p class="hobby-desc">COD mobile has always been my comfort zone;the game that keeps me engaged and
-              entertained during my free time.</p>
+          <div class="bg-white rounded-4 border border-light-subtle shadow-sm text-center p-4 h-100">
+            <div class="d-flex align-items-center justify-content-center mx-auto mb-3 rounded-3" style="width:56px;height:56px;background-color:var(--accent-light);">
+              <svg width="26" height="26" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><polyline points="8 21 12 17 16 21"/></svg>
+            </div>
+            <h3 class="hobby-title">COD Mobile</h3>
+            <p class="hobby-desc mb-0">COD Mobile has always been my comfort zone — the game that keeps me engaged and entertained during my free time.</p>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6">
-          <div class="hobby-card">
-            <h3 class="hobby-title">2nd Hobby</h3>
-            <p class="hobby-desc">I enjoy reading romantic comedy stories because they help me relax and provide enjoyable moments during my free time.</p>
+          <div class="bg-white rounded-4 border border-light-subtle shadow-sm text-center p-4 h-100">
+            <div class="d-flex align-items-center justify-content-center mx-auto mb-3 rounded-3" style="width:56px;height:56px;background-color:var(--accent-light);">
+              <svg width="26" height="26" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+            </div>
+            <h3 class="hobby-title">Reading</h3>
+            <p class="hobby-desc mb-0">I enjoy reading romantic comedy stories because they help me relax and provide enjoyable moments during my free time.</p>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6">
-          <div class="hobby-card">
-            <h3 class="hobby-title">3rd Hobby</h3>
-            <p class="hobby-desc">I enjoy listening to music and exploring new genres, which helps me relax and find
-              inspiration.</p>
+          <div class="bg-white rounded-4 border border-light-subtle shadow-sm text-center p-4 h-100">
+            <div class="d-flex align-items-center justify-content-center mx-auto mb-3 rounded-3" style="width:56px;height:56px;background-color:var(--accent-light);">
+              <svg width="26" height="26" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+            </div>
+            <h3 class="hobby-title">Music</h3>
+            <p class="hobby-desc mb-0">I enjoy listening to music and exploring new genres, which helps me relax and find inspiration.</p>
           </div>
         </div>
 
@@ -96,7 +100,7 @@
     crossorigin="anonymous"></script>
   <script>
     var nav = document.getElementById('mainNav');
-    window.addEventListener('scroll', function () {
+    window.addEventListener('scroll', function() {
       if (window.scrollY > 40) {
         nav.classList.add('scrolled');
       } else {
@@ -106,5 +110,4 @@
   </script>
 
 </body>
-
 </html>
